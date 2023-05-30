@@ -8,11 +8,13 @@ import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CreditCardEntryComponent } from './credit-card-entry/credit-card-entry.component';
+import { LoginRegisterComponent } from './login-register/login-register.component';
+import { Dashboard } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent, 
-    CreditCardEntryComponent
+    CreditCardEntryComponent, LoginRegisterComponent, Dashboard
   ],
   imports: [
     BrowserModule,
